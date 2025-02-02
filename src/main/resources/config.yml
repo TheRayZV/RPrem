@@ -1,0 +1,23 @@
+# # # # # # # # # # # # # # # # # #
+#
+#
+#
+#         TheRayZV
+#
+#    https://therayzv.ru/
+#
+#
+#
+
+
+messages:
+  no-subscription: "У вас нет активных подписок"
+  subscription-expired: "Подписка истекла"
+  subscription-added: "Подписка добавлена для игрока %player% на %time%"
+  subscription-removed: "Подписка удалена для игрока %player%"
+  invalid-command: "Неверная команда. Используйте /rprem <add|rem> <никнейм> [время]"
+  invalid-time-format: "Неверный формат времени. Используйте 1h, 1d, 1w, 1m, 1y или lifetime(навсегда)!"
+  lifetime-placeholder: "Навсегда"
+
+database:
+  file: subscriptions.db

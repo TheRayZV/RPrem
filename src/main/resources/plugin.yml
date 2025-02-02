@@ -1,0 +1,16 @@
+name: RPrem
+version: 1.1
+main: org.rprem.RPremPlugin
+api-version: 1.21
+authors: [TheRayZV]
+
+commands:
+  rprem:
+    description: Управление подписками
+    usage: /rprem <add|rem> <никнейм> [время]
+    permission: rprem.admin
+
+permissions:
+  rprem.admin:
+    description: Позволяет управлять подписками
+    default: op
